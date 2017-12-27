@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  When there are more than one people working on a project or else if there is a need to
+  run the code in many computers its better to have the code at a centralized place that
+  is accesable from every where there is internet access with proper authentication rather 
+  than at a local place. 
