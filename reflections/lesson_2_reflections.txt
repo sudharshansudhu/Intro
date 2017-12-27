@@ -15,14 +15,38 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	We can use the different types of diff commands 
+	to check which files are available where and where the changes are placed and the available places are the working directory, staging area and the repository
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Whenever we want to make changes into our projects without wanting to 
+	reflect he changes in the main project, we create a branch where in the 
+	project is split into two branches and master branch has the main project 
+	and we can make the required changes in the branch that we create. If we 
+	want to add the new working feature of the branch to the main branch 
+	or master then we can do a merge
+
 
 How do the diagrams help you visualize the branch structure?
+	Let's say we have many branches made out in our, in order to have about
+	the parents of all the branches and the commits related to those branches
+	its better that we have a diagrammatic representation showing us the 
+	direction of the branches with its parent.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Once we have the branch ready of its functionality then we can simply rename 
+	or point the master to that branch, but if we have made other commits in the 
+	master branch then we have to get both the list of commits made by both the branches
+	together so we use the merge command which merges the two branches and by default 
+	points the checkedout branch . 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Automatic merging happens if there are no merge conflicts. If there is a 
+	merge conflict then the git raises a warning and tells the operator about the 
+	conflict and the source of the conflict and alloes trhe operator to decide on
+	what to do instead of it using soome ML algorithms which might not be correct
+	all the times.
