@@ -10,10 +10,10 @@ How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
     Easy access to the entire history of a file make you a more
-	efficient programmer, this is totally true. We programmer have
-	a great talent of fucking things up while coding, so hence by
-	keeping older versions of code we can roll back whenever we fuck
-	up.
+	efficient programmer, this is totally true. Normally there is a 
+	tendency that whenever we change the code we come across a lot of
+	unforeseen problems. By having a history we can pass through this 
+	easily by reverting back.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
@@ -31,19 +31,6 @@ What do you think are the pros and cons of manually choosing when to create a co
 	must remember to commit everytime he makes one logical change without forgetting.
 	the pros and cons of the automatic commting xis viceversa of the manual commit  
 
-When you've updated your document, click "Next", and an experienced Git user will share why version control is useful to him.
-
-When you've updated your document, click "Next" and Sarah will go over another difference between version control systems.
-
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
-
-    Fill in your answer here
-
-How can you use the commands git log and git diff to view the history of files?
-
-    Fill in your answer here
-
 How might using version control make you more confident to make changes that
 could break something?
 
@@ -55,9 +42,4 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Version control !!
