@@ -22,7 +22,7 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-	By having the last known state of the remote stroed locally it is benefitted in the following way:
+	By having the last known state of the remote stroed locally it is benefitted in the following way's:
 	lets say we have made changes in the git hub and hence the master at the git hub is pointing else where 
 	and we have also made changes to the local repo hence the origin/master and master point at different nodes
 	by having the history of states we have a clear cut idea of positions if there is merge confilct between the
