@@ -3,3 +3,27 @@ When would you want to use a remote repository rather than keeping all your work
   run the code in many computers its better to have the code at a centralized place that
   is accesable from every where there is internet access with proper authentication rather 
   than at a local place. 
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+	The answer will be similar to why there should be manual push/ commit. Human decision
+	making is much better than AI brains.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Forks are used to clone someones else project onto the github, it is similar 
+	to git clone but the only differnece is that it is done on the git hud website.
+	Clone is used to move or download a project from the repository on github to the 
+	local machine. Branches are made to keep different tracks of works separating 
+	the working versions versus the other developing versions all having the same code
+	and can be merged back to the main master branch after the work has been completed 
+	successfully by using the merge command.
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	By having the last known state of the remote stroed locally it is benefitted in the following way:
+	lets say we have made changes in the git hub and hence the master at the git hub is pointing else where 
+	and we have also made changes to the local repo hence the origin/master and master point at different nodes
+	by having the history of states we have a clear cut idea of positions if there is merge confilct between the
+	two.
